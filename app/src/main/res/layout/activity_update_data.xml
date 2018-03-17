@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.example.litepaltest.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:textColor="#0A0A0A"
+                android:text="Book Name"/>
+
+            <EditText
+                android:id="@+id/query_need_update_book_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:hint="input book's name"
+                android:layout_weight="5" />
+
+            <Button
+                android:id="@+id/query_need_update_reset"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Reset"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:textColor="#0A0A0A"
+                android:text="Book Author"/>
+
+            <EditText
+                android:id="@+id/query_need_update_book_author"
+                android:layout_width="0dp"
+                android:hint="input book's author"
+                android:layout_height="match_parent"
+                android:layout_weight="5" />
+
+            <Button
+                android:id="@+id/query_need_update_book"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Query"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#0A0A0A"
+        android:background="#C2C2C2"
+        android:textSize="24sp"
+        android:text="Update Book Data" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textColor="#0A0A0A"
+            android:text="Book Name"/>
+
+        <EditText
+            android:id="@+id/update_book_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:hint="input book's name"
+            android:layout_weight="5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textColor="#0A0A0A"
+            android:text="Book Author"/>
+
+        <EditText
+            android:id="@+id/update_book_author"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:hint="input book's name"
+            android:layout_weight="5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textColor="#0A0A0A"
+            android:text="Book Price"/>
+
+        <EditText
+            android:id="@+id/update_book_price"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:hint="input book's name"
+            android:layout_weight="5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textColor="#0A0A0A"
+            android:text="Book Pages"/>
+
+        <EditText
+            android:id="@+id/update_book_pages"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:hint="input book's name"
+            android:layout_weight="5" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/result_previous"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Previous"/>
+
+        <Button
+            android:id="@+id/result_next"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Next"/>
+
+        <Button
+            android:id="@+id/reset_input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="recovery"/>
+
+        <Button
+            android:id="@+id/update_book_data"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Update"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
